@@ -4,16 +4,18 @@ html {
     line-height: 1.4;
 }
 
+/*  NAV BAR  */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 960px;
     background-color: cadetblue;
+    margin: auto;
 }
 
 .logo-title {
-    display: inline-block;
+    display: flex;
     align-items: center;
 }
 
@@ -29,7 +31,6 @@ nav {
     padding: 1rem 0;
 }
 
-/*  MENU ITEMS  */
 .menu a {
     color: white;
     text-decoration: none;
@@ -38,4 +39,118 @@ nav {
 
 .menu {
     padding: 1rem 0;
+}
+
+/*  MAIN TITLE COMTAINER  */
+header {
+    background-image: url(../images/glasses-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 1rem;
+    height: 30rem;
+}
+
+.look-box {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 960px;
+    margin: auto;
+}
+
+.look-box h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: white;
+    line-height: 1.2;
+    display: inline-block;
+    padding: 0.75rem 5rem;
+    margin-right: -2rem;
+    margin-top: 10rem;
+}
+
+/*  SERVICES  */
+.services-container {
+    display: flex;
+    justify-content: center;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 8rem;
+    width: 5rem;
+    margin: 3rem;
+}
+
+.paper img.paper-icon {
+    width: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.ruler img.ruler-icon {
+    width: 5rem;
+    margin-bottom: 1rem;
+}
+
+.truck img.truck-icon {
+    width: 5rem;
+    margin-bottom: 1rem;
+}
+
+.service p {
+    display: block;
+    text-align: center;
+}
+
+/*  PHILOSOPHY AND APPOINTMENTS  */
+.pa-container {
+    display: flex;
+    justify-content: center;
+    max-width: 960px;
+    margin: auto;
+}
+
+.pa-box {
+    width: 35%;
+    justify-content: center;
+    display: block;
+    margin-right: 5%;
+    margin-bottom: 4rem;
+}
+
+.pa-title {
+    background-color: cadetblue;
+    padding: 0.5rem 1.25rem;
+    color: white;
+    max-width: 10rem;
+}
+
+.pa-box p {
+    display: block;
+    padding: 1rem 0;
+    line-height: 1.4rem;
+}
+
+/*  FOOTER  */
+.footer {
+    display: flex;
+    max-width: 960px;
+    margin: auto;
+    background-color: azure;
+    padding: 4rem 2rem;
+    align-items: center;
+}
+
+.footer img.footer-logo {
+    height: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+.footer p {
+    line-height: 1.4rem;
 }
